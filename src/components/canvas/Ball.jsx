@@ -10,10 +10,10 @@ const Ball = (props) => {
   return (
     <Float speed={3.75} rotationIntensity={0} floatIntensity={0}>
       <ambientLight intensity={0.25} />
-      <directionalLight position={[0, 1, 0.05]} />
+      <directionalLight position={[100, 1, 500]} />
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
-        <meshStandardMaterial color='#27548A' polygonOffset polygonOffsetFactor={-5} flatShading />
+        <meshStandardMaterial color='#9a6e88' polygonOffset polygonOffsetFactor={-5} flatShading />
         <Decal position={[0, 0, 1]} rotation={[2 * Math.PI, 0, 6.25]} scale={1} map={decal} flatShading />
       </mesh>
     </Float>

@@ -49,7 +49,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        <p className="mt-6 tracking-wider text-justify">
+        <p className="mt-6 tracking-wider text-justify p-3">
           I am a recent graduate with experience in Adobe Photoshop and
           Illustrator software. I have an eye for detail and. Understanding of
           the latest design trends. I am passionate about design and can bring

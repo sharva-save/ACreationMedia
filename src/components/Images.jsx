@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
 
 // Import images directly from your assets
 import {
@@ -50,7 +52,9 @@ const Images = () => {
 
   return (
     <div className="max-w-4xl mx-auto p-4">
-      <h1 className="text-4xl p-3 text-center">My Works</h1>
+      <div className="flex justify-around">
+      <h2 className={styles.sectionHeadText}>My Works</h2>
+      </div>
       <Slider ref={sliderRef} {...settings}>
         {images.map((image, index) => (
           <div key={index} className="px-2">
@@ -67,4 +71,7 @@ const Images = () => {
   );
 };
 
-export default Images;
+// export default Images;
+
+
+export default SectionWrapper(Images, "image");

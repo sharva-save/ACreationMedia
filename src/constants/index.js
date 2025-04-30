@@ -13,7 +13,7 @@ import {
                  title: "About",
                },
                {
-                 id: "work",
+                 id: "image",
                  title: "Work",
                },
                {
