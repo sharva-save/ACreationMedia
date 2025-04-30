@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
+import swal from 'sweetalert';
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
@@ -42,9 +43,9 @@ const Contact = () => {
         
         {
           from_name: form.name,
-          to_name: "Sharva",
+          to_name: "Saurabh",
           from_email: form.email,
-          to_email: "sharvasave2509@gmail.com",
+          to_email: "saurabhsawant1012@gmail.com",
           message: form.message,
         },
         'zAJ2jfuk9BdzOW1LS'
@@ -52,7 +53,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swert("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",

@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-primary opacity-80" : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -42,10 +42,10 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Sharva&nbsp;
-            <span className='sm:block hidden'>Shailesh Save &nbsp; &nbsp; || सर्वदा स्मर्यतां, त्वं पर्याप्तः ||</span>
+            Saurabh &nbsp;
+            <span className='sm:block hidden'>Sawant &nbsp; &nbsp;</span>
           </p>
         </Link>
 
