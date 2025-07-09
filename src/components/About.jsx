@@ -19,11 +19,11 @@ const ServiceCard = ({ index, title, icon }) => {
             scale: 1,
             speed: 450,
           }}
-          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col m-10"
         >
           <img
             src={icon}
-            alt="web-development"
+            alt="photoshop"
             className="w-28 h-28 object-contain"
           />
 
@@ -46,10 +46,12 @@ const About = () => {
           <br></br>Introduction
         </p> */}
 
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>
+          <p className="text-center sm:text-left align-middle">Overview</p>
+        </h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
-        <p className="mt-6 tracking-wider text-justify p-3">
+        <p className="mt-6 text-justify tracking-wider p-10 sm:p-4 md:p-6">
           I am a recent graduate with experience in Adobe Photoshop and
           Illustrator software. I have an eye for detail and. Understanding of
           the latest design trends. I am passionate about design and can bring
@@ -60,7 +62,7 @@ const About = () => {
 
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
-          <ServiceCard key={index} index={index} {...service} />
+          <ServiceCard  key={index} index={index} {...service} />
         ))}
       </div>
     </>
