@@ -59,9 +59,10 @@ const Hero = () => {
             </span>
           </h1>
           <p
-            className={`${styles.heroSubText} text-center lg:text-right lg:pr-[100px] lg:mt-[-10px] text-white`}
+            className={`${styles.heroSubText} text-left lg:text-right lg:pr-[100px] lg:mt-[-10px] text-white`}
           >
-            Think Creative Be Creative
+            {/* Think Creative Be Creative */}
+            we are a full-service graphic design studio and media agency consultancy dedicated to helping brands tell their stories with impact and clarity. Blending creativity with strategy, we specialize in visual identity, branding, digital content creation, marketing campaigns, and media consulting for businesses ready to elevate their presence
           </p>
           <div className="text-center ml-[-40px]">
             <motion.img
