@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <section
-      className="relative w-full mx-auto overflow-hidden h-[40vh] lg:h-screen
+      className="relative w-full mx-auto overflow-hidden h-[50vh] lg:h-screen
 "
       onMouseMove={handleMouseMove}
     >
