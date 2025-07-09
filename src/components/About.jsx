@@ -52,11 +52,7 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)}>
         <p className="mt-6 text-justify tracking-wider p-10 sm:p-4 md:p-6">
-          I am a recent graduate with experience in Adobe Photoshop and
-          Illustrator software. I have an eye for detail and. Understanding of
-          the latest design trends. I am passionate about design and can bring
-          new ideas to the TableWhich can give a new dimension to marketing
-          campaigns.
+          we are a full-service graphic design studio and media agency consultancy dedicated to helping brands tell their stories with impact and clarity. Blending creativity with strategy, we specialize in visual identity, branding, digital content creation, marketing campaigns, and media consulting for businesses ready to elevate their presence.
         </p>
       </motion.p>
 
