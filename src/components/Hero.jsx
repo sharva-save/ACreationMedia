@@ -52,7 +52,7 @@ const Hero = () => {
 
         <div>
           <h1 className="font-black  text-[#ffffff] text-center lg:text-[45px]  text-[20px] lg:leading-[98px]  mt-[-20px]">
-            Welcome To{" "}
+            {/* Welcome To{" "} */}
             <br></br>
             <span className="text-[#fff005] sm:text-center text-[30px] lg:text-7xl">
               {" "}
@@ -65,24 +65,23 @@ const Hero = () => {
             Think Creative Be Creative
             
           </p>
-          <div className="text-center ml-[-40px]">
-            <motion.img
-              className="text-center"
-              src={creativeMedia}
-              alt="Creative Media"
-              initial={{ opacity: 0, y: 10, scale: 0.5 }} // Explicit normal scale
-              animate={{ opacity: 1, y: 0, scale: 0.5 }} // Explicit normal scale
-              transition={{ duration: 0.3, ease: "easeIn" }}
-              whileHover={{
-                y: -10,
-                scale: 0.7, // Hover scale
-                transition: {
-                  duration: 0.3,
-                  ease: "easeIn",
-                },
-              }}
-            />
-          </div>
+          <div className="hidden md:block text-center ml-[-40px]">
+  <img
+    src={creativeMedia}
+    alt="Creative Media"
+    className="mx-auto w-[70%] pt-[40px]"
+  />
+</div>
+
+         <div className="block md:hidden text-center ml-[-40px]">
+  <img
+    src={creativeMedia}
+    alt="Creative Media"
+    className="mx-auto pt-[30px]"
+  />
+</div>
+
+         
         </div>
       </div>
 
