@@ -20,6 +20,13 @@
   display: block;
 }
 
+.timeline-date {
+  color: rgba(255, 255, 255, 0.65) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.03em;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
