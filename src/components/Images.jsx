@@ -1,80 +1,4 @@
-// import React, { useRef } from "react";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import { styles } from "../styles";
-// import { SectionWrapper } from "../hoc";
 
-// // Import images directly from your assets
-// import {
-//   img1,
-//   img2,
-//   img3,
-//   img4,
-//   img5,
-//   img6,
-//   img7,
-//   img8,
-//   img10,
-//   img11,
-//   img9,
-// } from "../assets";
-
-// const Images = () => {
-//   const sliderRef = useRef(null);
-
-//   // Array of your project images
-//   const images = [
-//     img1,
-//     img2,
-//     img3,
-//     img4,
-//     img5,
-//     img6,
-//     img7,
-//     img8,
-//     img10,
-//     img11,
-//     img9,
-//   ];
-
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 500,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 1000,
-//     arrows: true,
-//     pauseOnHover: true,
-//   };
-
-//   return (
-//     <div className="max-w-4xl mx-auto p-4">
-//       <div className="flex justify-around">
-//       <h2 className={styles.sectionHeadText}>My Works</h2>
-//       </div>
-//       <Slider ref={sliderRef} {...settings}>
-//         {images.map((image, index) => (
-//           <div key={index} className="px-2">
-//             <img
-//               src={image}
-//               alt={`Project ${index + 1}`}
-//               className="w-full h-auto rounded-lg shadow-lg object-contain"
-//               style={{ height: "500px" }}
-//             />
-//           </div>
-//         ))}
-//       </Slider>
-//     </div>
-//   );
-// };
-
-// // export default Images;
-
-
-// export default SectionWrapper(Images, "image");
 
 import React, { useRef, useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -102,7 +26,7 @@ const images = [
   { src: img11, tag: "Identity" },
 ];
 
-const AUTOPLAY_DELAY = 3500; // ms — was 1000 (way too fast)
+
 
 // ─── Lightbox ─────────────────────────────────────────────────────────────────
 const Lightbox = ({ images, index, onClose, onPrev, onNext }) => {
@@ -187,11 +111,11 @@ const Works = () => {
   const next = useCallback(() => goTo((current + 1) % images.length),                 [current, goTo]);
 
   // Autoplay
-  useEffect(() => {
-    if (isHovered) return;
-    timerRef.current = setInterval(next, AUTOPLAY_DELAY);
-    return () => clearInterval(timerRef.current);
-  }, [isHovered, next]);
+  // useEffect(() => {
+  //   if (isHovered) return;
+  //   timerRef.current = setInterval(next, AUTOPLAY_DELAY);
+  //   return () => clearInterval(timerRef.current);
+  // }, [isHovered, next]);
 
   const progress = ((current + 1) / images.length) * 100;
 
@@ -240,7 +164,7 @@ const Works = () => {
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.97 }}
               transition={{ duration: 0.45, ease: "easeInOut" }}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </AnimatePresence>
 

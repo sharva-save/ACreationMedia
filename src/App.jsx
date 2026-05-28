@@ -33,13 +33,13 @@ const App = () => {
         </div>
         <div className="bg-[#1e113a] relative z-0">
           <About />
-          <Images />
+           <Works />
           <StarsCanvas />
           <Experience />
           <Tech />
         </div>
 
-        {/* <Works /> */}
+       
         {/* <Feedbacks /> */}
         <div className="relative z-0 bg-[#1e113a] ">
           <Contact />
