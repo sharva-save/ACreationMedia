@@ -5,18 +5,18 @@ import { motion, AnimatePresence } from "framer-motion";
 const portfolioData = [
   {
     id: "wedding",
-    label: "Digital Wedding Invitation",
+    label: "digital-wedding-invitation",
     icon: "💍",
     color: "#f5c518",
     glow: "rgba(245,197,24,0.18)",
     accent: "#ff6b00",
     count: 6,
     items: [
-      { id: 1,         img: "../../public/images/Digital Wedding Invitation/chaitanya-wife.jpg" },
-      { id: 3, name: "Druvis & Prashant",      file: "druvis-frd.jpg",        img: '../../public/images/Digital Wedding Invitation/mukunda.jpg' },
-      { id: 4, name: "Mukunda & Soniya",       file: "mukunda.jpg",           img: '../../public/images/Digital Wedding Invitation/shubham-&-sakshi-wedding-card.jpg' },
-      { id: 5, name: "Shubham & Sakshi",       file: "shubham-&-sakshi.jpg",  img: '../../public/images/Digital Wedding Invitation/shubham-&-sakshi-wedding-card.jpg' },
-      { id: 6, name: "Pajkta & Chaitanya",     file: "84128-80027-.jpg",      img: '../../public/images/Digital Wedding Invitation/chaitanya-wife.jpg' },
+      { id: 1,         img: "../../public/images/digital-wedding-invitation/chaitanya-wife.jpg" },
+      { id: 3, name: "Druvis & Prashant",      file: "druvis-frd.jpg",        img: '../../public/images/digital-wedding-invitation/mukunda.jpg' },
+      { id: 4, name: "Mukunda & Soniya",       file: "mukunda.jpg",           img: '../../public/images/digital-wedding-invitation/shubham-&-sakshi-wedding-card.jpg' },
+      { id: 5, name: "Shubham & Sakshi",       file: "shubham-&-sakshi.jpg",  img: '../../public/images/digital-wedding-invitation/shubham-&-sakshi-wedding-card.jpg' },
+      { id: 6, name: "Pajkta & Chaitanya",     file: "84128-80027-.jpg",      img: '../../public/images/digital-wedding-invitation/chaitanya-wife.jpg' },
     ],
   },
   {
