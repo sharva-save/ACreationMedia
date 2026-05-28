@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const portfolioData = [
   {
     id: "wedding",
-    label: "digital-wedding-invitation",
+    label: "digital-wedding-invitations",
     icon: "💍",
     color: "#f5c518",
     glow: "rgba(245,197,24,0.18)",
