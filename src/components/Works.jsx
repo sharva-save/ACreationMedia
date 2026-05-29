@@ -15,7 +15,7 @@ const portfolioData = [
       { id: 1,         img: "/images/digital-wedding-invitation/chaitanya-wife.jpg" },
       { id: 3, name: "Druvis & Prashant",      file: "druvis-frd.jpg",        img: '/images/digital-wedding-invitation/mukunda.jpg' },
       { id: 4, name: "Mukunda & Soniya",       file: "mukunda.jpg",           img: '/images/digital-wedding-invitation/shubham-&-sakshi-wedding-card.jpg' },
-      { id: 5, name: "Shubham & Sakshi",       file: "shubham-&-sakshi.jpg",  img: '/images/digital-wedding-invitation/shubham-&-sakshi-wedding-card.jpg' },
+      { id: 5, name: "Shubham & Sakshi",       file: "shubham-&-sakshi.jpg",  img: '/images/digital-wedding-invitation/wedding-card.png' },
       { id: 6, name: "Pajkta & Chaitanya",     file: "84128-80027-.jpg",      img: '/images/digital-wedding-invitation/chaitanya-wife.jpg' },
     ],
   },
@@ -28,14 +28,13 @@ const portfolioData = [
     accent: "#f5c518",
     count: 8,
     items: [
-      { id: 1, name: "Gajendra Boisar",       file: "gajendra-boisar.jpg",         img: null },
-      { id: 2, name: "Altitude Fitness Gym",  file: "gym-social-media-.jpg",       img: null },
-      { id: 3, name: "Hanuman Jayanti",        file: "hanuman-jayanti.jpg",         img: null },
-      { id: 4, name: "Pranay Kadu",            file: "pranay-kadu.png",             img: null },
-      { id: 5, name: "Wastu Shanti",           file: "wastu-shanti.jpg",            img: null },
-      { id: 6, name: "Wastushanti 2",          file: "wastushanti-98346.jpg",       img: null },
-      { id: 7, name: "Namkaran Samarambh",     file: "नामकरण-समारंभ-.jpg",         img: null },
-      { id: 8, name: "Sevanivriti Samarambh",  file: "सेवानिवृती-समारंभ-.jpg",     img: null },
+      { id: 1, name: "Gajendra Boisar",       file: "gajendra-boisar.jpg",         img: "/images/digital-wedding-invitation-card/1.png" },
+      { id: 2, name: "Altitude Fitness Gym",  file: "gym-social-media-.jpg",       img: "/images/digital-wedding-invitation-card/2.jpg" },
+      { id: 3, name: "Hanuman Jayanti",        file: "hanuman-jayanti.jpg",         img: "/images/digital-wedding-invitation-card/3.jpg" },
+      { id: 4, name: "Pranay Kadu",            file: "pranay-kadu.png",             img: "/images/digital-wedding-invitation-card/4.jpg" },
+      { id: 5, name: "Wastu Shanti",           file: "wastu-shanti.jpg",            img: "/images/digital-wedding-invitation-card/5.jpg" },
+      { id: 6, name: "Wastushanti 2",          file: "wastushanti-98346.jpg",       img: "/images/digital-wedding-invitation-card/6.jpg" },
+     
     ],
   },
   {
@@ -47,10 +46,17 @@ const portfolioData = [
     accent: "#ff6b00",
     count: 3,
     items: [
-      { id: 1, name: "Logo Design 1", file: "logo-1.jpg", img: null },
-      { id: 2, name: "Logo Design 2", file: "logo-2.jpg", img: null },
-      { id: 3, name: "Logo Design 3", file: "logo-3.jpg", img: null },
-    ],
+  { id: 1, name: "Logo Design 1", file: "logo-1.jpg", img: "/images/Logos/1.webp" },
+  { id: 2, name: "Logo Design 2", file: "logo-2.jpg", img: "/images/Logos/2.webp" },
+  { id: 3, name: "Logo Design 3", file: "logo-3.jpg", img: "/images/Logos/3.webp" },
+  { id: 4, name: "Logo Design 4", file: "logo-4.jpg", img: "/images/Logos/4.webp" },
+  { id: 5, name: "Logo Design 5", file: "logo-5.jpg", img: "/images/Logos/5.webp" },
+  { id: 6, name: "Logo Design 6", file: "logo-6.jpg", img: "/images/Logos/6.webp" },
+  { id: 7, name: "Logo Design 7", file: "logo-7.jpg", img: "/images/Logos/7.webp" },
+  { id: 8, name: "Logo Design 8", file: "logo-8.jpg", img: "/images/Logos/8.webp" },
+  { id: 9, name: "Logo Design 9", file: "logo-9.jpg", img: "/images/Logos/9.webp" },
+  { id: 10, name: "Logo Design 10", file: "logo-10.jpg", img: "/images/Logos/10.webp" },
+]
   },
   {
     id: "print",
@@ -61,9 +67,12 @@ const portfolioData = [
     accent: "#f5c518",
     count: 2,
     items: [
-      { id: 1, name: "Print Design 1", file: "print-1.jpg", img: null },
-      { id: 2, name: "Print Design 2", file: "print-2.jpg", img: null },
-    ],
+  { id: 1, name: "Print Design 1", file: "print-1.jpg", img: "/images/Print-media/1.webp" },
+  { id: 2, name: "Print Design 2", file: "print-2.jpg", img: "/images/Print-media/2.webp" },
+  { id: 3, name: "Print Design 3", file: "print-3.jpg", img: "/images/Print-media/3.webp" },
+  { id: 4, name: "Print Design 4", file: "print-4.jpg", img: "/images/Print-media/4.webp" },
+  { id: 5, name: "Print Design 5", file: "print-5.jpg", img: "/images/Print-media/5.webp" },
+],
   },
   {
     id: "product",
@@ -74,8 +83,9 @@ const portfolioData = [
     accent: "#00d4ff",
     count: 2,
     items: [
-      { id: 1, name: "Product Design 1", file: "product-1.jpg", img: null },
-      { id: 2, name: "Product Design 2", file: "product-2.jpg", img: null },
+      { id: 1, name: "Product Design 1",  img: "/images/product-design/1.webp" },
+      { id: 2, name: "Product Design 1",  img: "/images/product-design/2.webp" },
+      { id: 3, name: "Product Design 1",  img: "/images/product-design/3.webp" },
     ],
   },
   {
@@ -87,25 +97,39 @@ const portfolioData = [
     accent: "#ff3cac",
     count: 3,
     items: [
-      { id: 1, name: "Social Post 1", file: "social-1.jpg", img: null },
-      { id: 2, name: "Social Post 2", file: "social-2.jpg", img: null },
-      { id: 3, name: "Social Post 3", file: "social-3.jpg", img: null },
-    ],
+  { id: 1, name: "Social Post 1", file: "social-1.jpg", img: "/images/social-media-post/1.webp" },
+  { id: 2, name: "Social Post 2", file: "social-2.jpg", img: "/images/social-media-post/2.webp" },
+  { id: 3, name: "Social Post 3", file: "social-3.jpg", img: "/images/social-media-post/3.webp" },
+  { id: 4, name: "Social Post 4", file: "social-4.jpg", img: "/images/social-media-post/4.webp" },
+  { id: 5, name: "Social Post 5", file: "social-5.jpg", img: "/images/social-media-post/5.webp" },
+  { id: 6, name: "Social Post 6", file: "social-6.jpg", img: "/images/social-media-post/6.webp" },
+  { id: 7, name: "Social Post 7", file: "social-7.jpg", img: "/images/social-media-post/7.webp" },
+  { id: 8, name: "Social Post 8", file: "social-8.jpg", img: "/images/social-media-post/8.webp" },
+  { id: 9, name: "Social Post 9", file: "social-9.jpg", img: "/images/social-media-post/9.webp" },
+  { id: 10, name: "Social Post 10", file: "social-10.jpg", img: "/images/social-media-post/10.webp" },
+  { id: 11, name: "Social Post 11", file: "social-11.jpg", img: "/images/social-media-post/11.webp" },
+  { id: 12, name: "Social Post 12", file: "social-12.jpg", img: "/images/social-media-post/12.webp" },
+  { id: 13, name: "Social Post 13", file: "social-13.jpg", img: "/images/social-media-post/13.webp" },
+  { id: 14, name: "Social Post 14", file: "social-14.jpg", img: "/images/social-media-post/14.webp" },
+  { id: 15, name: "Social Post 15", file: "social-15.jpg", img: "/images/social-media-post/15.webp" },
+  { id: 16, name: "Social Post 16", file: "social-16.jpg", img: "/images/social-media-post/16.webp" },
+  { id: 17, name: "Social Post 17", file: "social-17.jpg", img: "/images/social-media-post/17.webp" },
+  { id: 18, name: "Social Post 18", file: "social-18.jpg", img: "/images/social-media-post/18.webp" },
+  { id: 19, name: "Social Post 19", file: "social-19.jpg", img: "/images/social-media-post/19.webp" },
+  { id: 20, name: "Social Post 20", file: "social-20.jpg", img: "/images/social-media-post/20.webp" },
+],
   },
-  {
-    id: "videos",
-    label: "Videos",
-    icon: "🎬",
-    color: "#ff3cac",
-    glow: "rgba(255,60,172,0.18)",
-    accent: "#f5c518",
-    count: 3,
-    items: [
-      { id: 1, name: "Promo Video 1",     file: "promo-1.mp4",    img: null, isVideo: true },
-      { id: 2, name: "Wedding Highlight", file: "wedding.mp4",    img: null, isVideo: true },
-      { id: 3, name: "Event Reel",        file: "event-reel.mp4", img: null, isVideo: true },
-    ],
-  },
+ {
+  id: "videos",
+  label: "Videos",
+  icon: "🎬",
+  color: "#ff3cac",
+  glow: "rgba(255,60,172,0.18)",
+  accent: "#f5c518",
+  count: 3,
+  driveLink: "https://drive.google.com/drive/folders/17PfW-EqbCsk5poDAjxiURUJff2pyoDeu?usp=drive_link",
+  items: [],
+},
 ];
 
 // ─── Dot texture (matches site's scattered red dots motif) ───────────────────
@@ -177,15 +201,31 @@ const MediaCard = ({ item, folderColor, folderIcon }) => (
     }}
   >
     <div className="relative overflow-hidden">
-      {item.img ? (
-        <img
-          src={item.img}
-          alt={item.name}
-          className="w-full aspect-[4/3] object-contain block transition-transform duration-500 group-hover:scale-105"
-        />
-      ) : (
-        <Placeholder color={folderColor} icon={folderIcon} isVideo={item.isVideo} />
-      )}
+      {item.isVideo ? (
+  <video
+    className="w-full aspect-[4/3] object-cover block transition-transform duration-700 group-hover:scale-105"
+    autoPlay
+    muted
+    loop
+    playsInline
+    preload="metadata"
+  >
+    <source src={item.videoUrl} type="video/mp4" />
+  </video>
+) : item.img ? (
+  <img
+    src={item.img}
+    alt={item.name}
+    className="w-full aspect-[4/3] object-contain block transition-transform duration-500 group-hover:scale-105"
+    loading="lazy"
+  />
+) : (
+  <Placeholder
+    color={folderColor}
+    icon={folderIcon}
+    isVideo={item.isVideo}
+  />
+)}
       {/* Neon top-edge accent line */}
       <div
         className="absolute top-0 left-0 right-0 h-[2px] opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -193,18 +233,34 @@ const MediaCard = ({ item, folderColor, folderIcon }) => (
           background: `linear-gradient(90deg, transparent, ${folderColor}, transparent)`,
         }}
       />
-      {item.isVideo && (
-        <div
-          className="absolute top-2 right-2 px-2 py-1 rounded flex items-center gap-1"
-          style={{
-            background: "rgba(8,11,30,0.85)",
-            border: "1px solid rgba(255,107,0,0.3)",
-          }}
-        >
-          <span style={{ fontSize: 9, color: "#ff6b00" }}>▶</span>
-          <span className="text-[9px] tracking-widest" style={{ color: "rgba(255,255,255,0.5)" }}>VIDEO</span>
-        </div>
-      )}
+     {item.isVideo && (
+  <div
+    className="absolute top-3 right-3 px-2.5 py-1 rounded-full flex items-center gap-1.5 backdrop-blur-md"
+    style={{
+      background: "rgba(8,11,30,0.55)",
+      border: "1px solid rgba(255,255,255,0.12)",
+      boxShadow: "0 4px 20px rgba(0,0,0,0.25)",
+    }}
+  >
+    <span
+      style={{
+        fontSize: 10,
+        color: "#ff6b00",
+      }}
+    >
+      ▶
+    </span>
+
+    <span
+      className="text-[10px] tracking-[0.18em] font-medium"
+      style={{
+        color: "rgba(255,255,255,0.75)",
+      }}
+    >
+      VIDEO
+    </span>
+  </div>
+)}
     </div>
     
   </motion.div>
@@ -464,24 +520,48 @@ const Works = () => {
                 </p>
               </div>
 
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-                <AnimatePresence>
-                  {folder?.items.map((item, i) => (
-                    <motion.div
-                      key={item.id}
-                      initial={{ opacity: 0, y: 20 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: i * 0.05 }}
-                    >
-                      <MediaCard
-                        item={item}
-                        folderColor={folder.color}
-                        folderIcon={folder.icon}
-                      />
-                    </motion.div>
-                  ))}
-                </AnimatePresence>
-              </div>
+              {activeFolder === "videos" ? (
+                <div className="flex flex-col items-center justify-center py-24 gap-6">
+                  <span style={{ fontSize: 64 }}>🎬</span>
+                  <p
+                    className="text-[12px] tracking-[4px] uppercase font-medium"
+                    style={{ color: "rgba(255,255,255,0.35)" }}
+                  >
+                    All videos are hosted on Google Drive
+                  </p>
+                  <a href="https://drive.google.com/drive/folders/17PfW-EqbCsk5poDAjxiURUJff2pyoDeu?usp=drive_link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 px-10 py-4 rounded-xl font-black tracking-[2px] uppercase text-[13px] transition-all duration-300 hover:scale-105"
+                    style={{
+                      background: "linear-gradient(135deg, #ff3cac 0%, #f5c518 100%)",
+                      color: "#000",
+                      boxShadow: "0 0 40px rgba(255,60,172,0.4), 0 8px 32px rgba(0,0,0,0.4)",
+                    }}
+                  >
+                    ▶&nbsp; Click Here to Watch Videos
+                  </a>
+                </div>
+              ) : (
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                  <AnimatePresence>
+                    {folder?.items.map((item, i) => (
+                      <motion.div
+                        key={item.id}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: i * 0.05 }}
+                      >
+                        <MediaCard
+                          item={item}
+                          folderColor={folder.color}
+                          folderIcon={folder.icon}
+                        />
+                      </motion.div>
+                    ))}
+                  </AnimatePresence>
+                </div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>

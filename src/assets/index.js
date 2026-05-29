@@ -8,7 +8,11 @@ import ps from "./ps.png"
 import col from "./col.png"
 import Shimaro from "./logo.png"
 import logo2 from "./logo2.png"
+import shree from "./shree.png"
 import creative from "./creative-media.png";
+import capcut from './capcut.png'
+import abhi from './abi.jpeg'
+import snapchat from './snapchat.png'
 
 import img1 from "./works/1.webp"
 import img2 from "./works/2.webp"
@@ -25,6 +29,7 @@ import img12 from "./works/12.webp"
 import img13 from "./works/13.webp"
 import img14 from "./works/14.jpg"
 
+
 export {
   logo,
   github,
@@ -38,6 +43,7 @@ export {
   logo2,
   creative,
   img1,
+  capcut,
   img2,
   img3,
   img4,
@@ -50,5 +56,7 @@ export {
   img11,
   img12,
   img13,
+  shree,
   img14,
+  abhi,snapchat
 };

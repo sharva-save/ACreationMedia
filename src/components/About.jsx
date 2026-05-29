@@ -85,6 +85,10 @@ const About = () => {
             marketing campaigns, and media consulting for businesses ready to elevate their presence.
           </p>
 
+          <p className="text-white/60 text-[1.2rem] leading-[1.85] font-light p-1">
+           Beyond design, the studio is fully optimised with <span className="text-[#E78B48] font-medium">AI-powered tools and specialises in mobile editing, scripting, and vlogging — </span>, bridging creative storytelling with modern digital workflows.
+          </p>
+
           {/* Stats */}
           <div className="flex gap-8 mt-8 flex-wrap">
             {stats.map((s) => (
