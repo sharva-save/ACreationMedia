@@ -11,13 +11,32 @@ const portfolioData = [
     glow: "rgba(245,197,24,0.18)",
     accent: "#ff6b00",
     count: 6,
-    items: [
-      { id: 1,         img: "/images/digital-wedding-invitation/chaitanya-wife.jpg" },
-      { id: 3, name: "Druvis & Prashant",      file: "druvis-frd.jpg",        img: '/images/digital-wedding-invitation/mukunda.jpg' },
-      { id: 4, name: "Mukunda & Soniya",       file: "mukunda.jpg",           img: '/images/digital-wedding-invitation/shubham-&-sakshi-wedding-card.jpg' },
-      { id: 5, name: "Shubham & Sakshi",       file: "shubham-&-sakshi.jpg",  img: '/images/digital-wedding-invitation/wedding-card.png' },
-      { id: 6, name: "Pajkta & Chaitanya",     file: "84128-80027-.jpg",      img: '/images/digital-wedding-invitation/chaitanya-wife.jpg' },
-    ],
+   items: [
+  {
+    id: 1,
+    img: "/images/digital-wedding-invitation-card/1.png",
+  },
+  {
+    id: 2,
+    img: "/images/digital-wedding-invitation-card/2.jpg",
+  },
+  {
+    id: 3,
+    img: "/images/digital-wedding-invitation-card/3.jpg",
+  },
+  {
+    id: 4,
+    img: "/images/digital-wedding-invitation-card/4.jpg",
+  },
+  {
+    id: 5,
+    img: "/images/digital-wedding-invitation-card/5.jpg",
+  },
+  {
+    id: 6,
+    img: "/images/digital-wedding-invitation-card/6.jpg",
+  },
+]
   },
   {
     id: "invitation",
@@ -28,12 +47,10 @@ const portfolioData = [
     accent: "#f5c518",
     count: 8,
     items: [
-      { id: 1, name: "Gajendra Boisar",       file: "gajendra-boisar.jpg",         img: "/images/digital-wedding-invitation-card/1.png" },
-      { id: 2, name: "Altitude Fitness Gym",  file: "gym-social-media-.jpg",       img: "/images/digital-wedding-invitation-card/2.jpg" },
-      { id: 3, name: "Hanuman Jayanti",        file: "hanuman-jayanti.jpg",         img: "/images/digital-wedding-invitation-card/3.jpg" },
-      { id: 4, name: "Pranay Kadu",            file: "pranay-kadu.png",             img: "/images/digital-wedding-invitation-card/4.jpg" },
-      { id: 5, name: "Wastu Shanti",           file: "wastu-shanti.jpg",            img: "/images/digital-wedding-invitation-card/5.jpg" },
-      { id: 6, name: "Wastushanti 2",          file: "wastushanti-98346.jpg",       img: "/images/digital-wedding-invitation-card/6.jpg" },
+      { id: 1, name: "Gajendra Boisar",       file: "gajendra-1.webp",         img: "/images/digital-invitation-card/1.webp" },
+      { id: 2, name: "Altitude Fitness Gym",  file: "gym-social-media-.jpg",       img: "/images/digital-invitation-card/2.webp" },
+      { id: 3, name: "Hanuman Jayanti",        file: "hanuman-jayanti.jpg",         img: "/images/digital-invitation-card/3.webp" },
+     
      
     ],
   },
