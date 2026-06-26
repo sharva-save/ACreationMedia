@@ -22,8 +22,9 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   const [autoRotate, setAutoRotate] = useState(true);
+  
   return (
-    <Canvas frameloop='demand'   lazyRadius ={15}  gl={{ preserveDrawingBuffer: true }} >
+    <Canvas frameloop='demand'     gl={{ preserveDrawingBuffer: true }} >
     <Suspense fallback={<CanvasLoader />}>
       <OrbitControls 
         enableZoom={false} 

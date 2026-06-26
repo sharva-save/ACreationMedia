@@ -43,13 +43,12 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_1h83hvg',
-        'template_ud723a9',
+        'service_i61fvwq',
+        'template_s7h2n9e',
         
         {
-          from_name: form.name,
-          to_name: "Saurabh",
-          from_email: form.email,
+           name: form.name,  
+           email: form.email, 
           to_email: "saurabhsawant1012@gmail.com",
           message: form.message,
         },
@@ -58,7 +57,7 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          Swert("Thank you. I will get back to you as soon as possible.");
+          swal ("Thank you. I will get back to you as soon as possible.");
 
           setForm({
             name: "",

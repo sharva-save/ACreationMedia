@@ -164,6 +164,31 @@ const Hero = () => {
         >
           Think Creative · Be Creative
         </motion.p>
+             {/* Contact Info */}
+        <motion.div
+  variants={fadeUp(0.35)}
+  initial="hidden"
+  animate="show"
+  className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 mb-10 text-white/40 text-sm"
+>
+  <a
+    href="tel:+918830226524"
+    className="flex items-center gap-2 hover:text-[#E78B48] transition-colors duration-300"
+  >
+    <span className="text-[#E78B48]">📞</span>
+    +91 88302 26524
+  </a>
+
+  <span className="hidden sm:block text-white/20">·</span>
+
+  <a
+    href="mailto:saurabhsawant1012@gmail.com"
+    className="flex items-center gap-2 hover:text-[#E78B48] transition-colors duration-300"
+  >
+    <span className="text-[#E78B48]">✉</span>
+    saurabhsawant1012@gmail.com
+  </a>
+</motion.div>
 
         {/* CTA Buttons */}
         <motion.div

@@ -47,18 +47,22 @@ import {
              
              const technologies = [
                {
+                id:1,
                  name: "PHOTOSHOP",
                  icon: ps,
                },
                {
+                id:2,
                  name: "ILLUSTRATOR",
                  icon: ai,
                },
                {
+                id:3,
                  name: "PREMIRE PRO",
                  icon: pr,
                },
                {
+                id:4,
                  title: "CAPCUT",
                  icon: capcut,
                },
